@@ -28,7 +28,7 @@ function encrypt() {
     const afterInitialShift = applyInitialShift(plaintext, initialShift);
     document.getElementById("initial-result").innerText = afterInitialShift;
 
-    // Get secondary shifts
+    // Get secondary shifts this parts of our codes shows how the number and letters works
     const secondaryShifts = document
         .getElementById("secondary-shifts")
         .value.split(",")
